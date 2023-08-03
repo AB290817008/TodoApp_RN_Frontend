@@ -215,7 +215,7 @@ function App() {
             Add Todo
           </button>
           {todoData?.data &&
-            todoData.data.getTodos.map((item, ind) => (
+            todoData?.data?.getTodos?.map((item, ind) => (
               <div
                 className="task_main_div"
                 style={{ marginLeft: "1rem", marginTop: "2rem" }}
