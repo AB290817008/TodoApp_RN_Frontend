@@ -202,7 +202,7 @@ function App() {
     //   <StatusBar style="auto" />
     // </SafeAreaView>
     <div className="main_div">
-      <h2 className="heading">Serverless TodoApp</h2>
+      <h2 className="heading">Serverless TodoApp Using RN and AWS</h2>
       {loading ? (
         <h1>Loading ...</h1>
       ) : (
